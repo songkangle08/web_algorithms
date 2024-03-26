@@ -44,7 +44,7 @@ function Stack() {
   Stack.prototype.size = function () {
     let resultString = '';
     for (let index = 0; index < this.items.length; index++) {
-      const element = array[index].toString();
+      const element = array[index].toString() + '  ';
       resultString += element;
     }
   };
